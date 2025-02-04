@@ -1,0 +1,9 @@
+Get person's age
+If age is 1 year or less
+    Display "infant"
+Else if age is less than 13 years
+    Display "child"
+Else if age is less than 20
+    Display "teenager"
+Else
+    Display "adult"

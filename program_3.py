@@ -1,3 +1,6 @@
+# Programmer: Austin Long
+# Date: 2/4/2025
+# Shipping Charge Calculator
 # Programming Excersize 3-13
 
 # The Fast Freight Shipping Company charges the following rates:
@@ -15,7 +18,18 @@ def weight_conversion(weight):
     ######################
     # WRITE YOUR CODE HERE
     ######################
-    
+
+    # Determine price per pound based on the weight
+    if weight <= 2.0:
+        shippingCost = 1.5
+    elif weight <= 6.0:
+        shippingCost = 3.0
+    elif weight <= 10:
+        shippingCost = 4.0
+    else:
+        shippingCost = 4.75
+
+    # Return price per pound to caller
     return shippingCost
 
 #### This piece of the code has been done for you,
